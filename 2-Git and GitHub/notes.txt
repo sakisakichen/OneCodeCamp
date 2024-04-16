@@ -20,3 +20,17 @@ git log
 
 Deleting a branch
 git branch -d branch-name
+
+Creating a remote Repository
+
+Add a remote to the local repository
+git remote add origin [repository-url]
+
+Confirm connection to the remote repository
+git remote -v
+
+Set the branch to main
+git branch -M main
+
+Push commits to the remote repository for the first time
+git push -u origin main
