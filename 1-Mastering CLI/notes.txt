@@ -1,0 +1,27 @@
+Create a folder
+mkdir [folder_name]
+
+Clear the terminal
+clear
+
+Delete a folder
+rmdir [folder_name]
+
+Present Working Directory
+pwd
+
+List Command
+ls
+
+Change Directory
+cd [folder_name]
+
+cd ..
+-> go back to the parent folder 
+
+Create a file
+touch [file_name]
+
+remove a file
+rm [file_name]
+
