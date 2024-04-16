@@ -11,3 +11,7 @@ git status
 
 Adding file to the Staging Area
 git add .
+
+Create a commit
+git commit -m "This is the description."
+
