@@ -17,3 +17,6 @@ git commit -m "This is the description."
 
 Show the history
 git log
+
+Deleting a branch
+git branch -d branch-name
