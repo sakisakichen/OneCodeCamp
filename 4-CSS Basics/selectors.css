@@ -1,0 +1,39 @@
+span {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+  }
+
+  .class-name {
+    color: red;
+    background-color: pink;
+  }
+
+
+#id-name {
+    font-weight: bold;
+  }
+
+
+  * {
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  h1,
+  h2,
+  .parag {
+    color: orange;
+  }
+
+  .ancestor p {
+    font-style: italic;
+    color: green;
+  }
+
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: yellowgreen;
+  }
+

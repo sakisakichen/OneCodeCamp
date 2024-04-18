@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>creating form</h1>
+    <form action="">
+    <div>
+        <label for="name">Name: </label>
+        <input 
+        type="text" 
+        name="name" 
+        id = "name" 
+        placeholder = "John Wick "
+        required
+        />
+    </div>
+    <div>
+        <label for="email"> email: </label>
+        <input 
+        type="email" 
+        name = 'email' 
+        id = 'email'
+        placeholder = 'saki@gmail.com'
+        />
+    </div>
+    <div>
+        <label for="password">password</label>
+        <input 
+        type="password" 
+        name ='password'
+        id = 'password'
+        placeholder = '************'
+        required
+        />
+    </div>
+    <div>
+        <label for="confirm password">confirm password</label>
+        <input 
+        type="password" 
+        name ='confirm_password'
+        id = 'confirm_password'
+        placeholder = '************'
+        required
+        />
+    </div>
+    <div>
+        <label for="age">age:</label>
+        <input 
+        type="number" 
+        name ='age'
+        id = 'age'
+        placeholder = '30'
+        required min = '18' max = "100"
+        />
+    </div>
+    <div>
+        <label for="message">message: </label>
+        <textarea  name="message" id="message" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="gender">gender</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+    </div>
+    <div> 
+        <label for="public">Public</label>
+        <input type="radio" name = 'status' id = 'public' value = 'public'/>
+        <label for="private">Private</label>
+        <input type="radio" name = 'status' id = 'private' value = 'private'/>
+    </div>
+    <div>
+        <label for="action"action>action</label>
+        <input type="checkbox" name = 'action' id = "action" value= 'action'>
+        <input type="checkbox" name="comedy" id="comedy" value="comedy" />
+        <label for="comedy">Comedy</label>
+        <input type="checkbox" name="drama" id="drama" value="drama" />
+        <label for="drama">Drama</label>
+        <input type="checkbox" name="horror" id="horror" value="horror" />
+        <label for="horror">Horror</label>
+      </div>
+    </div>
+    </form>
+    <button type="button">Reset</button>
+    <button type="button">Submit</button>
+    </body>
+</html>
